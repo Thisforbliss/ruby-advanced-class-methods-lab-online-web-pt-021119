@@ -69,12 +69,13 @@ class Song
   end 
   
  
+  def Song.create_from_filename(filename)
+  
+  song = self.new
+  song.save
   
   
-  
-  
-  
-    
+ end 
     
     
 end
