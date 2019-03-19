@@ -70,9 +70,6 @@ class Song
   
  
   def Song.create_from_filename(filename)
-  song = self.new
-  #song.save
-  #binding.pry
   
  end 
  
