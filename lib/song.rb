@@ -76,6 +76,9 @@ class Song
   binding.pry
   
  end 
+  def Song.destroy_all
+    @@all = []
     
+  end
     
 end
